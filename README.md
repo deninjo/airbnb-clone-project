@@ -323,6 +323,57 @@ Ensures the application works seamlessly across different devices and screen siz
 
 ---
 
+## API Security
+
+Securing the backend APIs is critical for maintaining user trust, protecting sensitive data, and ensuring the integrity of the Airbnb Clone platform. Below are the key security measures we will implement:
+
+---
+
+### **1. Authentication**
+We will use secure authentication mechanisms (e.g., JWT or OAuth2) to verify user identities before granting access to protected routes.  
+**Why it matters:** Authentication ensures only legitimate users can access personal accounts, preventing unauthorized access to user profiles, bookings, and property data.
+
+---
+
+### **2. Authorization**
+Role-based access control (RBAC) will be enforced to restrict access based on user roles (guest, host, admin).  
+**Why it matters:** Authorization prevents users from performing actions outside their privileges, such as a guest trying to access admin functionalities or edit another user's property.
+
+---
+
+### **3. Rate Limiting**
+API rate limiting will be implemented to restrict the number of requests a user or IP address can make in a given time frame.  
+**Why it matters:** This protects the system from abuse, brute-force attacks, and denial-of-service (DoS) scenarios, ensuring stable platform performance.
+
+---
+
+### **4. Data Validation & Sanitization**
+All input data will be validated and sanitized to prevent injection attacks (e.g., SQL injection, XSS).  
+**Why it matters:** This protects the backend and database from malicious payloads and ensures only clean, expected data enters the system.
+
+---
+
+### **5. HTTPS Enforcement**
+All API communication will be secured over HTTPS to encrypt data in transit.  
+**Why it matters:** Encrypting data during transmission protects sensitive information (like login credentials and payment details) from being intercepted.
+
+---
+
+### **6. Secure Payment Handling**
+Integrations with trusted third-party payment processors (e.g., Stripe, PayPal) will be used, and sensitive card information will never be stored on our servers.  
+**Why it matters:** Ensures compliance with PCI-DSS standards and minimizes the risk of financial data breaches.
+
+---
+
+### **7. Logging and Monitoring**
+All API access and errors will be logged, with monitoring tools in place to detect suspicious activity in real-time.  
+**Why it matters:** Continuous monitoring helps detect anomalies early, allowing rapid response to potential threats or breaches.
+
+---
+
+
+
+
 
 
 

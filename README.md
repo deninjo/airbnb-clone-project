@@ -138,3 +138,36 @@ The **Airbnb Clone Project** requires a diverse team of professionals, each brin
 ---
 
 > **Note:** Depending on the project phase and scale, some roles may be combined or handled by team members with overlapping skills. For smaller teams, full-stack developers and hybrid specialists can cover multiple responsibilities while maintaining development efficiency.
+
+
+## Technology Stack
+
+This project utilizes a modern technology stack to build a scalable, secure, and feature-rich Airbnb Clone platform. Each component plays a critical role in delivering the application's core functionality.
+
+### 1. Django  
+**Purpose:** Django is a high-level Python web framework used to build the backend of the application. It simplifies the development of secure and maintainable web APIs and includes built-in support for authentication, ORM, and admin interfaces.
+
+### 2. PostgreSQL  
+**Purpose:** PostgreSQL is a powerful, open-source relational database system used to store structured data, such as user information, bookings, property listings, and reviews. It integrates seamlessly with Django via Django ORM.
+
+### 3. GraphQL  
+**Purpose:** GraphQL is used as an alternative to REST for querying and mutating data. It enables the frontend to request exactly the data it needs, improving performance and reducing bandwidth usage.
+
+### 4. React  
+**Purpose:** React is a JavaScript library used to build the user interface. It allows for the development of dynamic, responsive, and component-based frontend applications that interact with the backend via GraphQL or REST APIs.
+
+### 5. Docker  
+**Purpose:** Docker is used to containerize the application and its services (e.g., web server, database), ensuring consistency across development and production environments. It simplifies deployment and scaling.
+
+### 6. Nginx  
+**Purpose:** Nginx is used as a reverse proxy and static file server for the production environment. It handles incoming HTTP requests and forwards them to the appropriate backend service, improving performance and security.
+
+### 7. Git & GitHub  
+**Purpose:** Git is the version control system used to track changes in the codebase, and GitHub is the hosting platform for collaborating on development and managing code repositories.
+
+### 8. CI/CD (e.g., GitHub Actions)  
+**Purpose:** Continuous Integration and Continuous Deployment pipelines are implemented to automate testing, building, and deployment processes, ensuring high code quality and rapid delivery.
+
+---
+
+

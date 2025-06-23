@@ -277,6 +277,53 @@ Represents the payment made for a booking.
   - Belongs to one **Booking**
 
 ---
+## Feature Breakdown
+
+This section outlines the core features of the Airbnb Clone project. Each feature is designed to replicate essential functionality of the real Airbnb platform, ensuring a seamless and intuitive user experience.
+
+---
+
+### **1. User Management**
+Allows users to sign up, log in, and manage their profiles. The system supports different roles (guest or host) and provides secure authentication and authorization for accessing specific features.
+
+---
+
+### **2. Property Management**
+Hosts can list new properties by providing details such as title, description, location, pricing, and availability. This feature allows them to manage their listings, update property info, and upload images.
+
+---
+
+### **3. Booking System**
+Enables guests to browse listings and book available properties for specific dates. The system checks availability, prevents double bookings, and confirms reservations through status updates.
+
+---
+
+### **4. Payment Integration**
+Supports secure online payments for confirmed bookings. Integrates with third-party payment gateways (e.g., Stripe or PayPal) to process transactions, track payment status, and generate receipts.
+
+---
+
+### **5. Review System**
+Allows guests to leave feedback and ratings after their stay. Reviews are tied to specific properties and help future guests make informed decisions based on host performance and property quality.
+
+---
+
+### **6. Search and Filtering**
+Users can search for properties using filters like location, price range, dates, and amenities. This feature enhances the user experience by making it easier to find suitable listings quickly.
+
+---
+
+### **7. Admin Dashboard**
+Provides admin-level users with tools to manage users, properties, bookings, and reported content. This ensures the platform remains safe, organized, and compliant with policies.
+
+---
+
+### **8. Responsive Design**
+Ensures the application works seamlessly across different devices and screen sizes. This improves accessibility for users on mobile, tablet, and desktop platforms.
+
+---
+
+
 
 
 
